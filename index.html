@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+    <html lang="hu">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <form>
+            <fieldset>
+                <legend>Szállítási cím módosítása</legend>
+
+                <table>
+                    <tr>
+                        <td><label for="nev" class="elso">Név <sup>*</sup></label><br>
+                            <input type="text" class="nev">
+                        </td>
+                        <td><label for="tel" class="elso">Telefonszám <sup>*</sup></label><br>
+                            <select id="telegy" name="tel">
+                                <option>36</option>
+                            </select>
+                            <input type="tel" id="telketto">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="szam">Irányítószám <sup>*</sup></label><br>
+                            <input type="number" id="szam" placeholder="4032">
+                        </td>
+                        <td><label for="varos">Város <sup>*</sup></label><br>
+                            <select id="varos">
+                                <option>Debrecen</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="orszag">Ország <sup>*</sup></label><br>
+                            <select id="orszag">
+                                <option>Magyarország</option>
+                            </select>
+                        </td>
+                        <td><label for="email">Email <sup>*</sup></label><br>
+                            <input type="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" id="save" value="Mentés"></td>
+                    </tr>
+
+                </table>
+
+            </fieldset>
+        </form>
+    </body>
+
+    </html>
